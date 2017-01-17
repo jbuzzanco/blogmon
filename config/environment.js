@@ -49,7 +49,9 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
+    ENV.rootURL = '/blogmon-ember';
     ENV.locationType = 'hash';
+    ENV.apiHost = 'https://blogmon-portfolio.herokuapp.com'
   }
 
   return ENV;

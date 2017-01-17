@@ -6,7 +6,9 @@
         {{#link-to 'post' post}}
           {{post.title}}
         {{/link-to}}
-        <button {{action 'delete' post}}>Delete</button>
+        <br>
+        <button class='btn btn-md btn-danger'{{action 'delete' post}}>Delete</button>
       </li>
     {{/each}}
 </ul>
+{{#link-to 'post.new'}}<button class="btn btn-lg">New Post</button>{{/link-to}}

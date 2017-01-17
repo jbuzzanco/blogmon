@@ -3,7 +3,7 @@
 module.exports = function (environment) {
   'use strict';
   const ENV = {
-    modulePrefix: 'blogmon',
+    modulePrefix: 'ga-wdi-boston.ember-template',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',

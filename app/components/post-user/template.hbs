@@ -1,0 +1,11 @@
+<h3 class="post-header">{{post.title}}</h3>
+<ul>
+  {{#each post.title as |title|}}
+
+      {{#link-to 'post' post}}
+        {{post.title}}
+      {{/link-to}}
+      <button {{action 'delete' post}}>Delete</button>
+  {{/each}}
+</ul>
+{{#link-to 'post.new'}}New Post{{/link-to}}

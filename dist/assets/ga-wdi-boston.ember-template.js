@@ -297,18 +297,13 @@ define('ga-wdi-boston.ember-template/components/password-input/component', ['exp
 define("ga-wdi-boston.ember-template/components/password-input/template", ["exports"], function (exports) {
   exports["default"] = Ember.HTMLBars.template({ "id": "iISuGt7e", "block": "{\"statements\":[[\"open-element\",\"label\",[]],[\"static-attr\",\"for\",\"kind\"],[\"flush-element\"],[\"text\",\"Password\"],[\"close-element\"],[\"text\",\"\\n\"],[\"append\",[\"helper\",[\"input\"],null,[[\"type\",\"id\",\"placeholder\",\"value\"],[\"password\",\"password\",\"Password\",[\"get\",[\"password\"]]]]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "ga-wdi-boston.ember-template/components/password-input/template.hbs" } });
 });
+define("ga-wdi-boston.ember-template/components/post-user/component", ["exports"], function (exports) {});
 define('ga-wdi-boston.ember-template/components/post-user/new/component', ['exports', 'ember'], function (exports, _ember) {
   exports['default'] = _ember['default'].Component.extend({
-    user: _ember['default'].computed.alias('auth.credentials.email'),
     actions: {
       actions: {
         save: function save() {
-          var _this = this;
-
-          var newPost = this.get('store').createRecord('post', this.currentModel);
-          newPost.save().then(function (post) {
-            _this.transitionTo('post', post);
-          });
+          this.sendAction('save', this.get('post'));
         },
         cancel: function cancel() {
           this.transitionTo('posts');
@@ -318,7 +313,10 @@ define('ga-wdi-boston.ember-template/components/post-user/new/component', ['expo
   });
 });
 define("ga-wdi-boston.ember-template/components/post-user/new/template", ["exports"], function (exports) {
-  exports["default"] = Ember.HTMLBars.template({ "id": "yS6R0mbW", "block": "{\"statements\":[[\"open-element\",\"h3\",[]],[\"flush-element\"],[\"text\",\"Post new\"],[\"close-element\"],[\"text\",\"\\n\"],[\"open-element\",\"form\",[]],[\"modifier\",[\"action\"],[[\"get\",[null]],\"save\"],[[\"on\"],[\"submit\"]]],[\"flush-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"flush-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"label\",[]],[\"flush-element\"],[\"text\",\"Title:\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"append\",[\"helper\",[\"input\"],null,[[\"type\",\"value\"],[\"text\",[\"get\",[\"model\",\"title\"]]]]],false],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"flush-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"label\",[]],[\"static-attr\",\"type\",\"hidden\"],[\"static-attr\",\"name\",\"user\"],[\"dynamic-attr\",\"value\",[\"concat\",[[\"unknown\",[\"user\"]]]]],[\"flush-element\"],[\"close-element\"],[\"text\",\"\\n\\n    \"],[\"open-element\",\"label\",[]],[\"flush-element\"],[\"text\",\"Body:\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"append\",[\"helper\",[\"textarea\"],null,[[\"rows\",\"value\"],[\"5\",[\"get\",[\"model\",\"body\"]]]]],false],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"flush-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"button\",[]],[\"static-attr\",\"class\",\"btn btn-info\"],[\"static-attr\",\"type\",\"submit\"],[\"flush-element\"],[\"text\",\"Create Blog Post\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"button\",[]],[\"static-attr\",\"class\",\"btn btn-danger\"],[\"modifier\",[\"action\"],[[\"get\",[null]],\"cancel\"]],[\"flush-element\"],[\"text\",\"Cancel\"],[\"close-element\"],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "ga-wdi-boston.ember-template/components/post-user/new/template.hbs" } });
+  exports["default"] = Ember.HTMLBars.template({ "id": "lXU3NzaP", "block": "{\"statements\":[[\"open-element\",\"h3\",[]],[\"flush-element\"],[\"text\",\"Post new\"],[\"close-element\"],[\"text\",\"\\n\"],[\"open-element\",\"form\",[]],[\"modifier\",[\"action\"],[[\"get\",[null]],\"createPost\"],[[\"on\"],[\"submit\"]]],[\"flush-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"flush-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"label\",[]],[\"flush-element\"],[\"text\",\"Title:\\n    \"],[\"append\",[\"helper\",[\"input\"],null,[[\"type\",\"value\"],[\"text\",[\"get\",[\"model\",\"title\"]]]]],false],[\"text\",\"\\n    \"],[\"close-element\"],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"flush-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"label\",[]],[\"static-attr\",\"type\",\"hidden\"],[\"static-attr\",\"name\",\"user\"],[\"dynamic-attr\",\"value\",[\"concat\",[[\"unknown\",[\"user\"]]]]],[\"flush-element\"],[\"text\",\"\\n    \"],[\"close-element\"],[\"text\",\"\\n\\n    \"],[\"open-element\",\"label\",[]],[\"flush-element\"],[\"text\",\"Body:\\n    \"],[\"append\",[\"helper\",[\"textarea\"],null,[[\"rows\",\"value\"],[\"5\",[\"get\",[\"model\",\"body\"]]]]],false],[\"text\",\"\\n    \"],[\"close-element\"],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"flush-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"button\",[]],[\"static-attr\",\"class\",\"btn btn-info\"],[\"static-attr\",\"type\",\"submit\"],[\"flush-element\"],[\"text\",\"Create Blog Post\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"button\",[]],[\"static-attr\",\"class\",\"btn btn-danger\"],[\"modifier\",[\"action\"],[[\"get\",[null]],\"cancelCreatePost\"]],[\"flush-element\"],[\"text\",\"Cancel\"],[\"close-element\"],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "ga-wdi-boston.ember-template/components/post-user/new/template.hbs" } });
+});
+define("ga-wdi-boston.ember-template/components/post-user/template", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "4bSqxol0", "block": "{\"statements\":[[\"open-element\",\"h3\",[]],[\"static-attr\",\"class\",\"post-header\"],[\"flush-element\"],[\"append\",[\"unknown\",[\"post\",\"title\"]],false],[\"close-element\"],[\"text\",\"\\n\"],[\"open-element\",\"ul\",[]],[\"flush-element\"],[\"text\",\"\\n\"],[\"block\",[\"each\"],[[\"get\",[\"post\",\"title\"]]],null,2],[\"close-element\"],[\"text\",\"\\n\"],[\"block\",[\"link-to\"],[\"post.new\"],null,0],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[{\"statements\":[[\"text\",\"New Post\"]],\"locals\":[]},{\"statements\":[[\"text\",\"        \"],[\"append\",[\"unknown\",[\"post\",\"title\"]],false],[\"text\",\"\\n\"]],\"locals\":[]},{\"statements\":[[\"text\",\"\\n\"],[\"block\",[\"link-to\"],[\"post\",[\"get\",[\"post\"]]],null,1],[\"text\",\"      \"],[\"open-element\",\"button\",[]],[\"modifier\",[\"action\"],[[\"get\",[null]],\"delete\",[\"get\",[\"post\"]]]],[\"flush-element\"],[\"text\",\"Delete\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[\"title\"]}],\"hasPartials\":false}", "meta": { "moduleName": "ga-wdi-boston.ember-template/components/post-user/template.hbs" } });
 });
 define('ga-wdi-boston.ember-template/components/sign-in-form/component', ['exports', 'ember'], function (exports, _ember) {
   exports['default'] = _ember['default'].Component.extend({
@@ -667,25 +665,22 @@ define('ga-wdi-boston.ember-template/post/model', ['exports', 'ember-data'], fun
 define('ga-wdi-boston.ember-template/post/new/route', ['exports', 'ember'], function (exports, _ember) {
   exports['default'] = _ember['default'].Route.extend({
     model: function model() {
+      this.get('store').createRecord('post', {});
       return {};
     },
     actions: {
-      save: function save() {
-        var _this = this;
-
-        var newPost = this.get('store').createRecord('post', this.currentModel);
-        newPost.save().then(function (post) {
-          _this.transitionTo('post', post);
-        });
+      createPost: function createPost(post) {
+        post.save();
       },
-      cancel: function cancel() {
+      cancelcreatePost: function cancelcreatePost(post) {
+        post.rollbackAttributes;
         this.transitionTo('posts');
       }
     }
   });
 });
 define("ga-wdi-boston.ember-template/post/new/template", ["exports"], function (exports) {
-  exports["default"] = Ember.HTMLBars.template({ "id": "I+nXniOx", "block": "{\"statements\":[[\"append\",[\"helper\",[\"post-user/new\"],null,[[\"post\",\"save\",\"cancel\"],[[\"get\",[\"model\"]],\"save\",\"cancel\"]]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "ga-wdi-boston.ember-template/post/new/template.hbs" } });
+  exports["default"] = Ember.HTMLBars.template({ "id": "KIDS+FhU", "block": "{\"statements\":[[\"append\",[\"helper\",[\"post-user/new\"],null,[[\"post\",\"save\",\"cancel\"],[[\"get\",[\"model\"]],\"createPost\",\"cancelCreatePost\"]]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "ga-wdi-boston.ember-template/post/new/template.hbs" } });
 });
 define('ga-wdi-boston.ember-template/post/route', ['exports', 'ember'], function (exports, _ember) {
   exports['default'] = _ember['default'].Route.extend({});
@@ -852,7 +847,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ga-wdi-boston.ember-template/app")["default"].create({"name":"ga-wdi-boston.ember-template","version":"0.0.0+3ebe043e"});
+  require("ga-wdi-boston.ember-template/app")["default"].create({"name":"ga-wdi-boston.ember-template","version":"0.0.0+f90eb9a9"});
 }
 
 /* jshint ignore:end */

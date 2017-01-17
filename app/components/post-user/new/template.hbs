@@ -1,17 +1,20 @@
 <h3>Post new</h3>
-<form {{action 'save' on='submit'}}>
+<form {{action 'createPost' on='submit'}}>
   <div>
-    <label>Title:</label>
+    <label>Title:
     {{input type='text' value=model.title}}
+    </label>
   </div>
   <div>
-    <label type="hidden" name="user" value="{{user}}"></label>
+    <label type="hidden" name="user" value="{{user}}">
+    </label>
 
-    <label>Body:</label>
+    <label>Body:
     {{textarea rows="5" value=model.body}}
+    </label>
   </div>
   <div>
     <button class="btn btn-info" type='submit'>Create Blog Post</button>
-    <button class='btn btn-danger' {{action 'cancel'}}>Cancel</button>
+    <button class='btn btn-danger' {{action 'cancelCreatePost'}}>Cancel</button>
   </div>
 </form>

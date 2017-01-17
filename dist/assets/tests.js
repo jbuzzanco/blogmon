@@ -153,6 +153,15 @@ define('ga-wdi-boston.ember-template/tests/components/password-input/component.j
     assert.ok(true, 'components/password-input/component.js should pass jshint.');
   });
 });
+define('ga-wdi-boston.ember-template/tests/components/post-user/component.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | components/post-user/component.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'components/post-user/component.js should pass jshint.');
+  });
+});
 define('ga-wdi-boston.ember-template/tests/components/post-user/new/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
@@ -731,7 +740,7 @@ define('ga-wdi-boston.ember-template/tests/post/new/route.jshint.lint-test', ['e
   QUnit.module('JSHint | post/new/route.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'post/new/route.js should pass jshint.');
+    assert.ok(false, 'post/new/route.js should pass jshint.\npost/new/route.js: line 13, col 12, Expected an assignment or function call and instead saw an expression.\n\n1 error');
   });
 });
 define('ga-wdi-boston.ember-template/tests/post/route.jshint.lint-test', ['exports'], function (exports) {

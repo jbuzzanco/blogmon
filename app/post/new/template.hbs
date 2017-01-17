@@ -1,17 +1,2 @@
-<h3>Post new</h3>
-<form>
-  <div>
-    <label>Title:</label>
-    {{input type='text' value=model.title}}
-  </div>
-  <div>
-    <label type="hidden" name="user" value="{{user}}"></label>
-
-    <label>Body:</label>
-    {{textarea rows="5" value=model.body}}
-  </div>
-  <div>
-    <button class="btn btn-info" {{action 'save'}}>Create Blog Post</button>
-    <button class='btn btn-danger' {{action 'cancel'}}>Cancel</button>
-  </div>
-</form>
+{{post-user/new post=model save='save'
+                            cancel='cancel'}}

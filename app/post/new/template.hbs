@@ -1,2 +1,21 @@
-{{post-user/new post=model save='createPost'
-                          cancel='cancelCreatePost'}}
+{{!-- {{post-user/new post=model save='createPost'
+                          cancel='cancelCreatePost'}} --}}
+<h3>Post New</h3>
+  <form>
+    <div>
+      <label>Title:</label>
+      {{input type="text" value=model.title}}
+
+      <label>You're {{model.user}}{{model.user.id}}{{user}}</label>
+
+      {{input class='hidden' type='text' value=model.user_id}}
+    </div>
+    <div>
+      <label>Body:</label>
+      {{textarea rows="10" value=model.body}}
+    </div>
+    <div>
+      <button {{action 'save'}}>Save Post</button>
+      <button {{action 'cancel'}}>Cancel</button>
+    </div>
+  </form>

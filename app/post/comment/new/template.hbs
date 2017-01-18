@@ -1,1 +1,16 @@
-<h3>Comment new</h3>
+<h3>Comment New</h3>
+<form>
+  <div>
+    <label>Author:</label>
+    {{input type="text" value=model.author}}
+  </div>
+  <div>
+    <label>Body:</label>
+    {{textarea rows="5" value=model.body}}
+  </div>
+
+  <div>
+    <button {{action 'save'}}>Save Comment</button>
+    <button {{action 'cancel'}}>Cancel</button>
+  </div>
+</form>

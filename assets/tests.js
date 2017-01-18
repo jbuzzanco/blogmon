@@ -24,7 +24,7 @@ define('ga-wdi-boston.ember-template/tests/application/adapter.jshint.lint-test'
   QUnit.module('JSHint | application/adapter.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(false, 'application/adapter.js should pass jshint.\napplication/adapter.js: line 4, col 8, \'Ember\' is defined but never used.\n\n1 error');
+    assert.ok(true, 'application/adapter.js should pass jshint.');
   });
 });
 define('ga-wdi-boston.ember-template/tests/application/route.jshint.lint-test', ['exports'], function (exports) {
@@ -731,7 +731,7 @@ define('ga-wdi-boston.ember-template/tests/post/model.jshint.lint-test', ['expor
   QUnit.module('JSHint | post/model.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'post/model.js should pass jshint.');
+    assert.ok(false, 'post/model.js should pass jshint.\npost/model.js: line 6, col 1, Unreachable \'export\' after \'return\'.\n\n1 error');
   });
 });
 define('ga-wdi-boston.ember-template/tests/post/new/route.jshint.lint-test', ['exports'], function (exports) {

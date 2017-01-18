@@ -740,7 +740,7 @@ define('ga-wdi-boston.ember-template/tests/post/new/route.jshint.lint-test', ['e
   QUnit.module('JSHint | post/new/route.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(false, 'post/new/route.js should pass jshint.\npost/new/route.js: line 13, col 12, Expected an assignment or function call and instead saw an expression.\n\n1 error');
+    assert.ok(true, 'post/new/route.js should pass jshint.');
   });
 });
 define('ga-wdi-boston.ember-template/tests/post/route.jshint.lint-test', ['exports'], function (exports) {

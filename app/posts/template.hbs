@@ -7,7 +7,9 @@
           {{post.title}}
         {{/link-to}}
         <br>
+        {{#if post.editable}}
         <button class='btn btn-md btn-danger'{{action 'delete' post}}>Delete</button>
+        {{/if}}
 
         {{!-- <form>
           <div>
@@ -30,8 +32,8 @@
         {{post-user/edit post=model save='savePost'
                             cancel='cancel'}}
 
-
       </li>
+
     {{/each}}
 </ul>
 {{#link-to 'post.new'}}<button class="btn btn-lg">New Post</button>{{/link-to}}

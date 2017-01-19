@@ -14,14 +14,14 @@
         <form>
           <div>
             <label>Title:</label>
-            {{input type="text" value=model.title}}
+            {{input type="text" value=post.title}}
 
             <label>You're {{currentUser}}{{model.user.id}}{{user}}</label>
 
           </div>
           <div>
             <label>Body:</label>
-            {{textarea rows="10" value=model.body}}
+            {{textarea rows="10" value=post.body}}
           </div>
           <div>
             <button class='btn btn-info' {{action 'edit' post}}>Edit Post</button>

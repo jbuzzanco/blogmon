@@ -8,6 +8,14 @@ export default Ember.Route.extend({
     delete(post) {
       post.deleteRecord();
       post.save();
+    },
+    savePost(post){
+      console.log('youre at posts route. your ppost is ', post);
+      post.save();
+    },
+    cancel(post){
+      post.rollbackAttributes();
+      this.transitionTo('posts');
     }
-  }
+  },
 });

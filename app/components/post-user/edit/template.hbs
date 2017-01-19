@@ -1,2 +1,17 @@
-{{yield}}
-<button class='btn btn-md'{{action 'edit'}}>Edit</button>
+<form>
+  <div>
+    <label>Title:</label>
+    {{input type="text" value=model.title}}
+
+    {{!-- <label>You're {{currentUser}}{{model.user.id}}{{user}}</label>
+--}}
+  </div>
+  <div>
+    <label>Body:</label>
+    {{textarea rows="10" value=model.body}}
+  </div>
+  <div>
+    <button class='btn btn-info' {{action 'edit'}}>Edit Post</button>
+    <button class='btn btn-danger' {{action 'cancel'}}>Cancel</button>
+  </div>
+</form>

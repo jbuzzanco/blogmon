@@ -11,23 +11,23 @@
         <button class='btn btn-md btn-danger'{{action 'delete' post}}>Delete</button>
         {{/if}}
 
-        {{!-- <form>
+        <form>
           <div>
             <label>Title:</label>
-            {{input type="text" value=model.title}} --}}
+            {{input type="text" value=model.title}}
 
-            {{!-- <label>You're {{currentUser}}{{model.user.id}}{{user}}</label>
-       --}}
-          {{!-- </div>
+            <label>You're {{currentUser}}{{model.user.id}}{{user}}</label>
+
+          </div>
           <div>
             <label>Body:</label>
             {{textarea rows="10" value=model.body}}
           </div>
           <div>
-            <button class='btn btn-info' {{action 'edit'}}>Edit Post</button>
+            <button class='btn btn-info' {{action 'edit' post}}>Edit Post</button>
             <button class='btn btn-danger' {{action 'cancel'}}>Cancel</button>
           </div>
-        </form> --}}
+        </form>
 
         {{post-user/edit post=model save='savePost'
                             cancel='cancel'}}

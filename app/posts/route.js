@@ -10,7 +10,7 @@ export default Ember.Route.extend({
       post.deleteRecord();
       post.save();
     },
-    savePost(post){
+    edit(post){
       console.log('youre at posts route. your ppost is ', post);
       post.save();
     },

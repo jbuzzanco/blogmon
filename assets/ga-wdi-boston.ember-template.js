@@ -989,7 +989,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ga-wdi-boston.ember-template/app")["default"].create({"name":"ga-wdi-boston.ember-template","version":"0.0.0+3689c26d"});
+  require("ga-wdi-boston.ember-template/app")["default"].create({"name":"ga-wdi-boston.ember-template","version":"0.0.0+aed6c039"});
 }
 
 /* jshint ignore:end */

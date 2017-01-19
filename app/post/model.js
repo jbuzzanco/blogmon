@@ -1,7 +1,7 @@
 import DS from 'ember-data';
 
-return this.get('store').findAll('user');
 
+// return this.get('store').findAll('post');
 
 export default DS.Model.extend({
   title: DS.attr('string'),

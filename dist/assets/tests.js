@@ -162,6 +162,15 @@ define('ga-wdi-boston.ember-template/tests/components/post-user/component.jshint
     assert.ok(true, 'components/post-user/component.js should pass jshint.');
   });
 });
+define('ga-wdi-boston.ember-template/tests/components/post-user/edit/component.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | components/post-user/edit/component.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'components/post-user/edit/component.js should pass jshint.');
+  });
+});
 define('ga-wdi-boston.ember-template/tests/components/post-user/new/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
@@ -604,6 +613,44 @@ define('ga-wdi-boston.ember-template/tests/integration/components/post-user/comp
     assert.ok(true, 'integration/components/post-user/component-test.js should pass jshint.');
   });
 });
+define('ga-wdi-boston.ember-template/tests/integration/components/post-user/edit/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleForComponent)('post-user/edit', 'Integration | Component | post user/edit', {
+    integration: true
+  });
+
+  (0, _emberQunit.test)('it renders', function (assert) {
+
+    // Set any properties with this.set('myProperty', 'value');
+    // Handle any actions with this.on('myAction', function(val) { ... });
+
+    this.render(Ember.HTMLBars.template({
+      'id': 'aa6Vmk0b',
+      'block': '{"statements":[["append",["unknown",["post-user/edit"]],false]],"locals":[],"named":[],"yields":[],"blocks":[],"hasPartials":false}',
+      'meta': {}
+    }));
+
+    assert.equal(this.$().text().trim(), '');
+
+    // Template block usage:
+    this.render(Ember.HTMLBars.template({
+      'id': 'hlc1GrJ4',
+      'block': '{"statements":[["text","\\n"],["block",["post-user/edit"],null,null,0],["text","  "]],"locals":[],"named":[],"yields":[],"blocks":[{"statements":[["text","      template block text\\n"]],"locals":[]}],"hasPartials":false}',
+      'meta': {}
+    }));
+
+    assert.equal(this.$().text().trim(), 'template block text');
+  });
+});
+define('ga-wdi-boston.ember-template/tests/integration/components/post-user/edit/component-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | integration/components/post-user/edit/component-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'integration/components/post-user/edit/component-test.js should pass jshint.');
+  });
+});
 define('ga-wdi-boston.ember-template/tests/integration/components/post-user/new/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('post-user/new', 'Integration | Component | post user/new', {
@@ -725,13 +772,22 @@ define('ga-wdi-boston.ember-template/tests/post/comment/new/route.jshint.lint-te
     assert.ok(true, 'post/comment/new/route.js should pass jshint.');
   });
 });
+define('ga-wdi-boston.ember-template/tests/post/edit/route.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | post/edit/route.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'post/edit/route.js should pass jshint.');
+  });
+});
 define('ga-wdi-boston.ember-template/tests/post/model.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | post/model.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(false, 'post/model.js should pass jshint.\npost/model.js: line 6, col 1, Unreachable \'export\' after \'return\'.\n\n1 error');
+    assert.ok(true, 'post/model.js should pass jshint.');
   });
 });
 define('ga-wdi-boston.ember-template/tests/post/new/route.jshint.lint-test', ['exports'], function (exports) {

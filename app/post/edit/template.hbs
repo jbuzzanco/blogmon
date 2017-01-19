@@ -1,0 +1,20 @@
+{{!-- {{post-user/new post=model save='createPost'
+                          cancel='cancelCreatePost'}} --}}
+<h3>Post Edit</h3>
+  <form>
+    <div>
+      <label>Title:</label>
+      {{input type="text" value=model.title}}
+
+      {{!-- <label>You're {{currentUser}}{{model.user.id}}{{user}}</label>
+ --}}
+    </div>
+    <div>
+      <label>Body:</label>
+      {{textarea rows="10" value=model.body}}
+    </div>
+    <div>
+      <button {{action 'save'}}>Save Post</button>
+      <button {{action 'cancel'}}>Cancel</button>
+    </div>
+  </form>

@@ -11,6 +11,7 @@
         <button class='btn btn-md btn-danger'{{action 'delete' post}}>Delete</button>
         {{/if}}
 
+        {{#if post.editable}}
         <form>
           <div>
             <label>Title:</label>
@@ -25,9 +26,11 @@
           </div>
           <div>
             <button class='btn btn-info' {{action 'edit' post}}>Edit Post</button>
-            <button class='btn btn-danger' {{action 'cancel'}}>Cancel</button>
+            {{!-- <button class='btn btn-danger' {{action 'cancel'}}>Cancel</button> --}}
           </div>
         </form>
+        {{/if}}
+
 
         {{post-user/edit post=model save='savePost'
                             cancel='cancel'}}

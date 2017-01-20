@@ -1,7 +1,10 @@
 <h3>Post show</h3>
 <h2>{{model.title}}</h2>
 <p>{{model.body}}</p>
-<div>
+
+{{!-- renders the comments. not currently
+functional. render this when doing comments--}}
+{{!-- <div>
   <h5>Comments( {{model.comments.length}} ):</h5>
   {{#each model.comments as |comment|}}
     <div class="comments">
@@ -10,5 +13,7 @@
       <button {{action 'deleteComment' comment}}>Delete Comment</button>
     </div>
     {{/each}}
-  </div>
-  <div>{{#link-to 'post.comment.new'}}Add Comment{{/link-to}}</div>
+  </div> --}}
+
+  {{!--  do  this when making comments on a post --}}
+  {{!-- <div>{{#link-to 'post.comment.new'}}Add Comment{{/link-to}}</div> --}}

@@ -1135,7 +1135,7 @@ define('ga-wdi-boston.ember-template/tests/unit/comments/route-test.jshint.lint-
     assert.ok(true, 'unit/comments/route-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/initializers/text-field-test', ['exports', 'ember', 'ga-wdi-boston.ember-template/initializers/text-field', 'qunit'], function (exports, _ember, _gaWdiBostonEmberTemplateInitializersTextField, _qunit) {
+define('ga-wdi-boston.ember-template/tests/unit/initializers/text-field-test', ['exports', 'ember', 'blogmon/initializers/text-field', 'qunit'], function (exports, _ember, _blogmonInitializersTextField, _qunit) {
 
   var application = undefined;
 
@@ -1150,7 +1150,7 @@ define('ga-wdi-boston.ember-template/tests/unit/initializers/text-field-test', [
 
   // Replace this with your real tests.
   (0, _qunit.test)('it works', function (assert) {
-    _gaWdiBostonEmberTemplateInitializersTextField['default'].initialize(application);
+    _blogmonInitializersTextField['default'].initialize(application);
 
     // you would normally confirm the results of the initializer here
     assert.ok(true);
@@ -1377,7 +1377,7 @@ define('ga-wdi-boston.ember-template/tests/users/route.jshint.lint-test', ['expo
 });
 /* jshint ignore:start */
 
-require('ga-wdi-boston.ember-template/tests/test-helper');
+require('blogmon/tests/test-helper');
 EmberENV.TESTS_FILE_LOADED = true;
 
 /* jshint ignore:end */

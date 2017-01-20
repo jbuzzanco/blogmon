@@ -6,9 +6,9 @@
 
 /* jshint ignore:end */
 
-define('ga-wdi-boston.ember-template/ajax/service', ['exports', 'ember', 'ember-ajax/services/ajax', 'ga-wdi-boston.ember-template/config/environment'], function (exports, _ember, _emberAjaxServicesAjax, _gaWdiBostonEmberTemplateConfigEnvironment) {
+define('ga-wdi-boston.ember-template/ajax/service', ['exports', 'ember', 'ember-ajax/services/ajax', 'blogmon/config/environment'], function (exports, _ember, _emberAjaxServicesAjax, _blogmonConfigEnvironment) {
   exports['default'] = _emberAjaxServicesAjax['default'].extend({
-    host: _gaWdiBostonEmberTemplateConfigEnvironment['default'].apiHost,
+    host: _blogmonConfigEnvironment['default'].apiHost,
 
     auth: _ember['default'].inject.service(),
     headers: _ember['default'].computed('auth.credentials.token', {
@@ -40,9 +40,9 @@ define('ga-wdi-boston.ember-template/app', ['exports', 'ember', 'ga-wdi-boston.e
 
   exports['default'] = App;
 });
-define('ga-wdi-boston.ember-template/application/adapter', ['exports', 'ga-wdi-boston.ember-template/config/environment', 'active-model-adapter', 'ember'], function (exports, _gaWdiBostonEmberTemplateConfigEnvironment, _activeModelAdapter, _ember) {
+define('ga-wdi-boston.ember-template/application/adapter', ['exports', 'blogmon/config/environment', 'active-model-adapter', 'ember'], function (exports, _blogmonConfigEnvironment, _activeModelAdapter, _ember) {
   exports['default'] = _activeModelAdapter['default'].extend({
-    host: _gaWdiBostonEmberTemplateConfigEnvironment['default'].apiHost,
+    host: _blogmonConfigEnvironment['default'].apiHost,
 
     auth: _ember['default'].inject.service(),
 
@@ -971,8 +971,8 @@ define("ga-wdi-boston.ember-template/users/template", ["exports"], function (exp
 
 /* jshint ignore:start */
 
-define('ga-wdi-boston.ember-template/config/environment', ['ember'], function(Ember) {
-  var prefix = 'ga-wdi-boston.ember-template';
+define('blogmon/config/environment', ['ember'], function(Ember) {
+  var prefix = 'blogmon';
 /* jshint ignore:start */
 
 try {
@@ -999,7 +999,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ga-wdi-boston.ember-template/app")["default"].create({"name":"ga-wdi-boston.ember-template","version":"0.0.0+aaafd564"});
+  require("blogmon/app")["default"].create({"name":"ga-wdi-boston.ember-template","version":"0.0.0+51b5f944"});
 }
 
 /* jshint ignore:end */

@@ -1,4 +1,4 @@
-import ENV from 'ga-wdi-boston.ember-template/config/environment';
+import ENV from 'blogmon/config/environment';
 import ActiveModelAdapter from 'active-model-adapter';
 
 import Ember from 'ember';

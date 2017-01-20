@@ -17,6 +17,17 @@ export default Ember.Route.extend({
     cancel(post){
       post.rollbackAttributes();
       this.transitionTo('posts');
+    },
+    willTransition(){
+      // console.log('insideWillTransition');
+      this.get('store').peekAll('post').forEach(function(post){
+
+        // console.log("post.get('hasDirtyAttributes');",   post.get('hasDirtyAttributes'));
+        if (post.get('hasDirtyAttributes')) {
+          post.rollbackAttributes();
+        }
+      });
+
     }
   },
 });

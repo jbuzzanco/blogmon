@@ -837,6 +837,16 @@ define('ga-wdi-boston.ember-template/posts/route', ['exports', 'ember'], functio
       cancel: function cancel(post) {
         post.rollbackAttributes();
         this.transitionTo('posts');
+      },
+      willTransition: function willTransition() {
+        // console.log('insideWillTransition');
+        this.get('store').peekAll('post').forEach(function (post) {
+
+          // console.log("post.get('hasDirtyAttributes');",   post.get('hasDirtyAttributes'));
+          if (post.get('hasDirtyAttributes')) {
+            post.rollbackAttributes();
+          }
+        });
       }
     }
   });

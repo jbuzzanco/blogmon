@@ -1,8 +1,7 @@
 # Blogmon
 ### a blog built with Rails and ember, by Joel
 
-[the front page](http://imgur.com/StfqV7H)
-
+![front page](http://i.imgur.com/StfqV7H.png "Front-Page")
 ## Technologies Used
 - HTML5
   - the structure of webpage

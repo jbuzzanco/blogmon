@@ -1,6 +1,6 @@
 'use strict';
 
-define('ga-wdi-boston.ember-template/tests/ajax/service.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/ajax/service.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | ajax/service.js');
@@ -9,7 +9,7 @@ define('ga-wdi-boston.ember-template/tests/ajax/service.jshint.lint-test', ['exp
     assert.ok(true, 'ajax/service.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/app.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/app.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | app.js');
@@ -18,7 +18,7 @@ define('ga-wdi-boston.ember-template/tests/app.jshint.lint-test', ['exports'], f
     assert.ok(true, 'app.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/application/adapter.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/application/adapter.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | application/adapter.js');
@@ -27,7 +27,7 @@ define('ga-wdi-boston.ember-template/tests/application/adapter.jshint.lint-test'
     assert.ok(true, 'application/adapter.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/application/route.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/application/route.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | application/route.js');
@@ -36,7 +36,7 @@ define('ga-wdi-boston.ember-template/tests/application/route.jshint.lint-test', 
     assert.ok(true, 'application/route.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/application/serializer.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/application/serializer.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | application/serializer.js');
@@ -45,7 +45,7 @@ define('ga-wdi-boston.ember-template/tests/application/serializer.jshint.lint-te
     assert.ok(true, 'application/serializer.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/auth/service.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/auth/service.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | auth/service.js');
@@ -54,7 +54,7 @@ define('ga-wdi-boston.ember-template/tests/auth/service.jshint.lint-test', ['exp
     assert.ok(true, 'auth/service.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/auth/storage.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/auth/storage.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | auth/storage.js');
@@ -63,7 +63,7 @@ define('ga-wdi-boston.ember-template/tests/auth/storage.jshint.lint-test', ['exp
     assert.ok(true, 'auth/storage.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/change-password/route.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/change-password/route.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | change-password/route.js');
@@ -72,7 +72,7 @@ define('ga-wdi-boston.ember-template/tests/change-password/route.jshint.lint-tes
     assert.ok(true, 'change-password/route.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/comment/model.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/comment/model.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | comment/model.js');
@@ -81,7 +81,7 @@ define('ga-wdi-boston.ember-template/tests/comment/model.jshint.lint-test', ['ex
     assert.ok(true, 'comment/model.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/comments/route.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/comments/route.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | comments/route.js');
@@ -90,7 +90,7 @@ define('ga-wdi-boston.ember-template/tests/comments/route.jshint.lint-test', ['e
     assert.ok(true, 'comments/route.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/change-password-form/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/change-password-form/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/change-password-form/component.js');
@@ -99,7 +99,7 @@ define('ga-wdi-boston.ember-template/tests/components/change-password-form/compo
     assert.ok(true, 'components/change-password-form/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/email-input/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/email-input/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/email-input/component.js');
@@ -108,7 +108,7 @@ define('ga-wdi-boston.ember-template/tests/components/email-input/component.jshi
     assert.ok(true, 'components/email-input/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/hamburger-menu/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/hamburger-menu/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/hamburger-menu/component.js');
@@ -117,7 +117,7 @@ define('ga-wdi-boston.ember-template/tests/components/hamburger-menu/component.j
     assert.ok(true, 'components/hamburger-menu/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/my-application/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/my-application/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/my-application/component.js');
@@ -126,7 +126,7 @@ define('ga-wdi-boston.ember-template/tests/components/my-application/component.j
     assert.ok(true, 'components/my-application/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/navbar-header/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/navbar-header/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/navbar-header/component.js');
@@ -135,7 +135,7 @@ define('ga-wdi-boston.ember-template/tests/components/navbar-header/component.js
     assert.ok(true, 'components/navbar-header/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/password-confirmation-input/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/password-confirmation-input/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/password-confirmation-input/component.js');
@@ -144,7 +144,7 @@ define('ga-wdi-boston.ember-template/tests/components/password-confirmation-inpu
     assert.ok(true, 'components/password-confirmation-input/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/password-input/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/password-input/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/password-input/component.js');
@@ -153,7 +153,7 @@ define('ga-wdi-boston.ember-template/tests/components/password-input/component.j
     assert.ok(true, 'components/password-input/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/post-user/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/post-user/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/post-user/component.js');
@@ -162,7 +162,7 @@ define('ga-wdi-boston.ember-template/tests/components/post-user/component.jshint
     assert.ok(true, 'components/post-user/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/post-user/edit/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/post-user/edit/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/post-user/edit/component.js');
@@ -171,7 +171,7 @@ define('ga-wdi-boston.ember-template/tests/components/post-user/edit/component.j
     assert.ok(true, 'components/post-user/edit/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/post-user/new/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/post-user/new/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/post-user/new/component.js');
@@ -180,7 +180,7 @@ define('ga-wdi-boston.ember-template/tests/components/post-user/new/component.js
     assert.ok(true, 'components/post-user/new/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/sign-in-form/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/sign-in-form/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/sign-in-form/component.js');
@@ -189,7 +189,7 @@ define('ga-wdi-boston.ember-template/tests/components/sign-in-form/component.jsh
     assert.ok(true, 'components/sign-in-form/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/components/sign-up-form/component.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/components/sign-up-form/component.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | components/sign-up-form/component.js');
@@ -198,14 +198,14 @@ define('ga-wdi-boston.ember-template/tests/components/sign-up-form/component.jsh
     assert.ok(true, 'components/sign-up-form/component.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/helpers/destroy-app', ['exports', 'ember'], function (exports, _ember) {
+define('blogmon/tests/helpers/destroy-app', ['exports', 'ember'], function (exports, _ember) {
   exports['default'] = destroyApp;
 
   function destroyApp(application) {
     _ember['default'].run(application, 'destroy');
   }
 });
-define('ga-wdi-boston.ember-template/tests/helpers/destroy-app.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/helpers/destroy-app.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | helpers/destroy-app.js');
@@ -214,12 +214,12 @@ define('ga-wdi-boston.ember-template/tests/helpers/destroy-app.jshint.lint-test'
     assert.ok(true, 'helpers/destroy-app.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/helpers/flash-message', ['exports', 'ember', 'ember-cli-flash/flash/object'], function (exports, _ember, _emberCliFlashFlashObject) {
+define('blogmon/tests/helpers/flash-message', ['exports', 'ember', 'ember-cli-flash/flash/object'], function (exports, _ember, _emberCliFlashFlashObject) {
   var K = _ember['default'].K;
 
   _emberCliFlashFlashObject['default'].reopen({ init: K });
 });
-define('ga-wdi-boston.ember-template/tests/helpers/flash-message.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/helpers/flash-message.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | helpers/flash-message.js');
@@ -228,13 +228,13 @@ define('ga-wdi-boston.ember-template/tests/helpers/flash-message.jshint.lint-tes
     assert.ok(true, 'helpers/flash-message.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/helpers/module-for-acceptance', ['exports', 'qunit', 'ga-wdi-boston.ember-template/tests/helpers/start-app', 'ga-wdi-boston.ember-template/tests/helpers/destroy-app'], function (exports, _qunit, _gaWdiBostonEmberTemplateTestsHelpersStartApp, _gaWdiBostonEmberTemplateTestsHelpersDestroyApp) {
+define('blogmon/tests/helpers/module-for-acceptance', ['exports', 'qunit', 'blogmon/tests/helpers/start-app', 'blogmon/tests/helpers/destroy-app'], function (exports, _qunit, _blogmonTestsHelpersStartApp, _blogmonTestsHelpersDestroyApp) {
   exports['default'] = function (name) {
     var options = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
 
     (0, _qunit.module)(name, {
       beforeEach: function beforeEach() {
-        this.application = (0, _gaWdiBostonEmberTemplateTestsHelpersStartApp['default'])();
+        this.application = (0, _blogmonTestsHelpersStartApp['default'])();
 
         if (options.beforeEach) {
           options.beforeEach.apply(this, arguments);
@@ -246,12 +246,12 @@ define('ga-wdi-boston.ember-template/tests/helpers/module-for-acceptance', ['exp
           options.afterEach.apply(this, arguments);
         }
 
-        (0, _gaWdiBostonEmberTemplateTestsHelpersDestroyApp['default'])(this.application);
+        (0, _blogmonTestsHelpersDestroyApp['default'])(this.application);
       }
     });
   };
 });
-define('ga-wdi-boston.ember-template/tests/helpers/module-for-acceptance.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/helpers/module-for-acceptance.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | helpers/module-for-acceptance.js');
@@ -260,18 +260,18 @@ define('ga-wdi-boston.ember-template/tests/helpers/module-for-acceptance.jshint.
     assert.ok(true, 'helpers/module-for-acceptance.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/helpers/resolver', ['exports', 'ga-wdi-boston.ember-template/resolver', 'ga-wdi-boston.ember-template/config/environment'], function (exports, _gaWdiBostonEmberTemplateResolver, _gaWdiBostonEmberTemplateConfigEnvironment) {
+define('blogmon/tests/helpers/resolver', ['exports', 'blogmon/resolver', 'blogmon/config/environment'], function (exports, _blogmonResolver, _blogmonConfigEnvironment) {
 
-  var resolver = _gaWdiBostonEmberTemplateResolver['default'].create();
+  var resolver = _blogmonResolver['default'].create();
 
   resolver.namespace = {
-    modulePrefix: _gaWdiBostonEmberTemplateConfigEnvironment['default'].modulePrefix,
-    podModulePrefix: _gaWdiBostonEmberTemplateConfigEnvironment['default'].podModulePrefix
+    modulePrefix: _blogmonConfigEnvironment['default'].modulePrefix,
+    podModulePrefix: _blogmonConfigEnvironment['default'].podModulePrefix
   };
 
   exports['default'] = resolver;
 });
-define('ga-wdi-boston.ember-template/tests/helpers/resolver.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/helpers/resolver.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | helpers/resolver.js');
@@ -280,17 +280,17 @@ define('ga-wdi-boston.ember-template/tests/helpers/resolver.jshint.lint-test', [
     assert.ok(true, 'helpers/resolver.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/helpers/start-app', ['exports', 'ember', 'ga-wdi-boston.ember-template/app', 'ga-wdi-boston.ember-template/config/environment'], function (exports, _ember, _gaWdiBostonEmberTemplateApp, _gaWdiBostonEmberTemplateConfigEnvironment) {
+define('blogmon/tests/helpers/start-app', ['exports', 'ember', 'blogmon/app', 'blogmon/config/environment'], function (exports, _ember, _blogmonApp, _blogmonConfigEnvironment) {
   exports['default'] = startApp;
 
   function startApp(attrs) {
     var application = undefined;
 
-    var attributes = _ember['default'].merge({}, _gaWdiBostonEmberTemplateConfigEnvironment['default'].APP);
+    var attributes = _ember['default'].merge({}, _blogmonConfigEnvironment['default'].APP);
     attributes = _ember['default'].merge(attributes, attrs); // use defaults, but you can override;
 
     _ember['default'].run(function () {
-      application = _gaWdiBostonEmberTemplateApp['default'].create(attributes);
+      application = _blogmonApp['default'].create(attributes);
       application.setupForTesting();
       application.injectTestHelpers();
     });
@@ -298,7 +298,7 @@ define('ga-wdi-boston.ember-template/tests/helpers/start-app', ['exports', 'embe
     return application;
   }
 });
-define('ga-wdi-boston.ember-template/tests/helpers/start-app.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/helpers/start-app.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | helpers/start-app.js');
@@ -307,7 +307,7 @@ define('ga-wdi-boston.ember-template/tests/helpers/start-app.jshint.lint-test', 
     assert.ok(true, 'helpers/start-app.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/initializers/text-field.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/initializers/text-field.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | initializers/text-field.js');
@@ -316,7 +316,7 @@ define('ga-wdi-boston.ember-template/tests/initializers/text-field.jshint.lint-t
     assert.ok(true, 'initializers/text-field.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/change-password-form/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/change-password-form/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('change-password-form', 'Integration | Component | change password form', {
     integration: true
@@ -344,7 +344,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/change-passwor
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/change-password-form/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/change-password-form/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/change-password-form/component-test.js');
@@ -353,7 +353,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/change-passwor
     assert.ok(true, 'integration/components/change-password-form/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/email-input/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/email-input/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('email-input', 'Integration | Component | email input', {
     integration: true
@@ -381,7 +381,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/email-input/co
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/email-input/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/email-input/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/email-input/component-test.js');
@@ -390,7 +390,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/email-input/co
     assert.ok(true, 'integration/components/email-input/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/hamburger-menu/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/hamburger-menu/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('hamburger-menu', 'Integration | Component | hamburger menu', {
     integration: true
@@ -418,7 +418,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/hamburger-menu
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/hamburger-menu/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/hamburger-menu/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/hamburger-menu/component-test.js');
@@ -427,7 +427,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/hamburger-menu
     assert.ok(true, 'integration/components/hamburger-menu/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/my-application/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/my-application/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('my-application', 'Integration | Component | my application', {
     integration: true
@@ -455,7 +455,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/my-application
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/my-application/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/my-application/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/my-application/component-test.js');
@@ -464,7 +464,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/my-application
     assert.ok(true, 'integration/components/my-application/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/navbar-header/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/navbar-header/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('navbar-header', 'Integration | Component | navbar header', {
     integration: true
@@ -492,7 +492,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/navbar-header/
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/navbar-header/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/navbar-header/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/navbar-header/component-test.js');
@@ -501,7 +501,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/navbar-header/
     assert.ok(true, 'integration/components/navbar-header/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/password-confirmation-input/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/password-confirmation-input/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('password-confirmation-input', 'Integration | Component | password confirmation input', {
     integration: true
@@ -529,7 +529,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/password-confi
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/password-confirmation-input/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/password-confirmation-input/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/password-confirmation-input/component-test.js');
@@ -538,7 +538,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/password-confi
     assert.ok(true, 'integration/components/password-confirmation-input/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/password-input/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/password-input/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('password-input', 'Integration | Component | password input', {
     integration: true
@@ -566,7 +566,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/password-input
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/password-input/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/password-input/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/password-input/component-test.js');
@@ -575,7 +575,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/password-input
     assert.ok(true, 'integration/components/password-input/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/post-user/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/post-user/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('post-user', 'Integration | Component | post user', {
     integration: true
@@ -604,7 +604,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/post-user/comp
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/post-user/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/post-user/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/post-user/component-test.js');
@@ -613,7 +613,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/post-user/comp
     assert.ok(true, 'integration/components/post-user/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/post-user/edit/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/post-user/edit/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('post-user/edit', 'Integration | Component | post user/edit', {
     integration: true
@@ -642,7 +642,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/post-user/edit
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/post-user/edit/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/post-user/edit/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/post-user/edit/component-test.js');
@@ -651,7 +651,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/post-user/edit
     assert.ok(true, 'integration/components/post-user/edit/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/post-user/new/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/post-user/new/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('post-user/new', 'Integration | Component | post user/new', {
     integration: true
@@ -680,7 +680,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/post-user/new/
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/post-user/new/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/post-user/new/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/post-user/new/component-test.js');
@@ -689,7 +689,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/post-user/new/
     assert.ok(true, 'integration/components/post-user/new/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/sign-in-form/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/sign-in-form/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('sign-in-form', 'Integration | Component | sign in form', {
     integration: true
@@ -717,7 +717,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/sign-in-form/c
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/sign-in-form/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/sign-in-form/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/sign-in-form/component-test.js');
@@ -726,7 +726,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/sign-in-form/c
     assert.ok(true, 'integration/components/sign-in-form/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/sign-up-form/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/integration/components/sign-up-form/component-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('sign-up-form', 'Integration | Component | sign up form', {
     integration: true
@@ -754,7 +754,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/sign-up-form/c
     assert.equal(this.$().text().trim(), 'template block text');
   });
 });
-define('ga-wdi-boston.ember-template/tests/integration/components/sign-up-form/component-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/integration/components/sign-up-form/component-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | integration/components/sign-up-form/component-test.js');
@@ -763,7 +763,7 @@ define('ga-wdi-boston.ember-template/tests/integration/components/sign-up-form/c
     assert.ok(true, 'integration/components/sign-up-form/component-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/post/comment/new/route.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/post/comment/new/route.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | post/comment/new/route.js');
@@ -772,7 +772,7 @@ define('ga-wdi-boston.ember-template/tests/post/comment/new/route.jshint.lint-te
     assert.ok(true, 'post/comment/new/route.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/post/edit/route.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/post/edit/route.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | post/edit/route.js');
@@ -781,7 +781,7 @@ define('ga-wdi-boston.ember-template/tests/post/edit/route.jshint.lint-test', ['
     assert.ok(true, 'post/edit/route.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/post/model.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/post/model.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | post/model.js');
@@ -790,7 +790,7 @@ define('ga-wdi-boston.ember-template/tests/post/model.jshint.lint-test', ['expor
     assert.ok(true, 'post/model.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/post/new/route.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/post/new/route.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | post/new/route.js');
@@ -799,7 +799,7 @@ define('ga-wdi-boston.ember-template/tests/post/new/route.jshint.lint-test', ['e
     assert.ok(true, 'post/new/route.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/post/route.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/post/route.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | post/route.js');
@@ -808,7 +808,7 @@ define('ga-wdi-boston.ember-template/tests/post/route.jshint.lint-test', ['expor
     assert.ok(true, 'post/route.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/posts/route.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/posts/route.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | posts/route.js');
@@ -817,7 +817,7 @@ define('ga-wdi-boston.ember-template/tests/posts/route.jshint.lint-test', ['expo
     assert.ok(true, 'posts/route.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/resolver.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/resolver.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | resolver.js');
@@ -826,7 +826,7 @@ define('ga-wdi-boston.ember-template/tests/resolver.jshint.lint-test', ['exports
     assert.ok(true, 'resolver.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/router.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/router.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | router.js');
@@ -835,7 +835,7 @@ define('ga-wdi-boston.ember-template/tests/router.jshint.lint-test', ['exports']
     assert.ok(true, 'router.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/sign-in/route.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/sign-in/route.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | sign-in/route.js');
@@ -844,7 +844,7 @@ define('ga-wdi-boston.ember-template/tests/sign-in/route.jshint.lint-test', ['ex
     assert.ok(true, 'sign-in/route.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/sign-up/route.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/sign-up/route.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | sign-up/route.js');
@@ -853,11 +853,11 @@ define('ga-wdi-boston.ember-template/tests/sign-up/route.jshint.lint-test', ['ex
     assert.ok(true, 'sign-up/route.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/test-helper', ['exports', 'ga-wdi-boston.ember-template/tests/helpers/resolver', 'ga-wdi-boston.ember-template/tests/helpers/flash-message', 'ember-qunit'], function (exports, _gaWdiBostonEmberTemplateTestsHelpersResolver, _gaWdiBostonEmberTemplateTestsHelpersFlashMessage, _emberQunit) {
+define('blogmon/tests/test-helper', ['exports', 'blogmon/tests/helpers/resolver', 'blogmon/tests/helpers/flash-message', 'ember-qunit'], function (exports, _blogmonTestsHelpersResolver, _blogmonTestsHelpersFlashMessage, _emberQunit) {
 
-  (0, _emberQunit.setResolver)(_gaWdiBostonEmberTemplateTestsHelpersResolver['default']);
+  (0, _emberQunit.setResolver)(_blogmonTestsHelpersResolver['default']);
 });
-define('ga-wdi-boston.ember-template/tests/test-helper.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/test-helper.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | test-helper.js');
@@ -866,7 +866,7 @@ define('ga-wdi-boston.ember-template/tests/test-helper.jshint.lint-test', ['expo
     assert.ok(true, 'test-helper.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/ajax/service-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/ajax/service-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('service:ajax', 'Unit | Service | ajax', {
     // Specify the other units that are required for this test.
@@ -879,7 +879,7 @@ define('ga-wdi-boston.ember-template/tests/unit/ajax/service-test', ['exports', 
     assert.ok(service);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/ajax/service-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/ajax/service-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/ajax/service-test.js');
@@ -888,7 +888,7 @@ define('ga-wdi-boston.ember-template/tests/unit/ajax/service-test.jshint.lint-te
     assert.ok(true, 'unit/ajax/service-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/application/adapter-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/application/adapter-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('adapter:application', 'Unit | Adapter | application', {
     // Specify the other units that are required for this test.
@@ -901,7 +901,7 @@ define('ga-wdi-boston.ember-template/tests/unit/application/adapter-test', ['exp
     assert.ok(adapter);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/application/adapter-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/application/adapter-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/application/adapter-test.js');
@@ -910,7 +910,7 @@ define('ga-wdi-boston.ember-template/tests/unit/application/adapter-test.jshint.
     assert.ok(true, 'unit/application/adapter-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/application/model-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/application/model-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForModel)('application', 'Unit | Model | application', {
     // Specify the other units that are required for this test.
@@ -924,7 +924,7 @@ define('ga-wdi-boston.ember-template/tests/unit/application/model-test', ['expor
     assert.ok(!!model);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/application/model-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/application/model-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/application/model-test.js');
@@ -933,7 +933,7 @@ define('ga-wdi-boston.ember-template/tests/unit/application/model-test.jshint.li
     assert.ok(true, 'unit/application/model-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/application/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/application/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:application', 'Unit | Route | application', {
     // Specify the other units that are required for this test.
@@ -945,7 +945,7 @@ define('ga-wdi-boston.ember-template/tests/unit/application/route-test', ['expor
     assert.ok(route);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/application/route-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/application/route-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/application/route-test.js');
@@ -954,7 +954,7 @@ define('ga-wdi-boston.ember-template/tests/unit/application/route-test.jshint.li
     assert.ok(true, 'unit/application/route-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/application/serializer-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/application/serializer-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForModel)('application', 'Unit | Serializer | application', {
     // Specify the other units that are required for this test.
@@ -970,7 +970,7 @@ define('ga-wdi-boston.ember-template/tests/unit/application/serializer-test', ['
     assert.ok(serializedRecord);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/application/serializer-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/application/serializer-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/application/serializer-test.js');
@@ -979,7 +979,7 @@ define('ga-wdi-boston.ember-template/tests/unit/application/serializer-test.jshi
     assert.ok(true, 'unit/application/serializer-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/auth/adapter-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/auth/adapter-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('adapter:auth', 'Unit | Adapter | auth', {
     // Specify the other units that are required for this test.
@@ -992,7 +992,7 @@ define('ga-wdi-boston.ember-template/tests/unit/auth/adapter-test', ['exports', 
     assert.ok(adapter);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/auth/adapter-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/auth/adapter-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/auth/adapter-test.js');
@@ -1001,7 +1001,7 @@ define('ga-wdi-boston.ember-template/tests/unit/auth/adapter-test.jshint.lint-te
     assert.ok(true, 'unit/auth/adapter-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/auth/model-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/auth/model-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForModel)('auth', 'Unit | Model | auth', {
     // Specify the other units that are required for this test.
@@ -1015,7 +1015,7 @@ define('ga-wdi-boston.ember-template/tests/unit/auth/model-test', ['exports', 'e
     assert.ok(!!model);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/auth/model-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/auth/model-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/auth/model-test.js');
@@ -1024,7 +1024,7 @@ define('ga-wdi-boston.ember-template/tests/unit/auth/model-test.jshint.lint-test
     assert.ok(true, 'unit/auth/model-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/auth/serializer-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/auth/serializer-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForModel)('auth', 'Unit | Serializer | auth', {
     // Specify the other units that are required for this test.
@@ -1040,7 +1040,7 @@ define('ga-wdi-boston.ember-template/tests/unit/auth/serializer-test', ['exports
     assert.ok(serializedRecord);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/auth/serializer-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/auth/serializer-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/auth/serializer-test.js');
@@ -1049,7 +1049,7 @@ define('ga-wdi-boston.ember-template/tests/unit/auth/serializer-test.jshint.lint
     assert.ok(true, 'unit/auth/serializer-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/auth/service-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/auth/service-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('service:auth', 'Unit | Service | auth', {
     // Specify the other units that are required for this test.
@@ -1062,7 +1062,7 @@ define('ga-wdi-boston.ember-template/tests/unit/auth/service-test', ['exports', 
     assert.ok(service);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/auth/service-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/auth/service-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/auth/service-test.js');
@@ -1071,7 +1071,7 @@ define('ga-wdi-boston.ember-template/tests/unit/auth/service-test.jshint.lint-te
     assert.ok(true, 'unit/auth/service-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/change-password/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/change-password/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:change-password', 'Unit | Route | change password', {
     // Specify the other units that are required for this test.
@@ -1083,7 +1083,7 @@ define('ga-wdi-boston.ember-template/tests/unit/change-password/route-test', ['e
     assert.ok(route);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/change-password/route-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/change-password/route-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/change-password/route-test.js');
@@ -1092,7 +1092,7 @@ define('ga-wdi-boston.ember-template/tests/unit/change-password/route-test.jshin
     assert.ok(true, 'unit/change-password/route-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/comment/model-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/comment/model-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForModel)('comment', 'Unit | Model | comment', {
     // Specify the other units that are required for this test.
@@ -1105,7 +1105,7 @@ define('ga-wdi-boston.ember-template/tests/unit/comment/model-test', ['exports',
     assert.ok(!!model);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/comment/model-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/comment/model-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/comment/model-test.js');
@@ -1114,7 +1114,7 @@ define('ga-wdi-boston.ember-template/tests/unit/comment/model-test.jshint.lint-t
     assert.ok(true, 'unit/comment/model-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/comments/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/comments/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:comments', 'Unit | Route | comments', {
     // Specify the other units that are required for this test.
@@ -1126,7 +1126,7 @@ define('ga-wdi-boston.ember-template/tests/unit/comments/route-test', ['exports'
     assert.ok(route);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/comments/route-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/comments/route-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/comments/route-test.js');
@@ -1135,7 +1135,7 @@ define('ga-wdi-boston.ember-template/tests/unit/comments/route-test.jshint.lint-
     assert.ok(true, 'unit/comments/route-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/initializers/text-field-test', ['exports', 'ember', 'blogmon/initializers/text-field', 'qunit'], function (exports, _ember, _blogmonInitializersTextField, _qunit) {
+define('blogmon/tests/unit/initializers/text-field-test', ['exports', 'ember', 'blogmon/initializers/text-field', 'qunit'], function (exports, _ember, _blogmonInitializersTextField, _qunit) {
 
   var application = undefined;
 
@@ -1156,7 +1156,7 @@ define('ga-wdi-boston.ember-template/tests/unit/initializers/text-field-test', [
     assert.ok(true);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/initializers/text-field-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/initializers/text-field-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/initializers/text-field-test.js');
@@ -1165,7 +1165,7 @@ define('ga-wdi-boston.ember-template/tests/unit/initializers/text-field-test.jsh
     assert.ok(true, 'unit/initializers/text-field-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/post/comment/new/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/post/comment/new/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:post/comment/new', 'Unit | Route | post/comment/new', {
     // Specify the other units that are required for this test.
@@ -1177,7 +1177,7 @@ define('ga-wdi-boston.ember-template/tests/unit/post/comment/new/route-test', ['
     assert.ok(route);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/post/comment/new/route-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/post/comment/new/route-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/post/comment/new/route-test.js');
@@ -1186,7 +1186,7 @@ define('ga-wdi-boston.ember-template/tests/unit/post/comment/new/route-test.jshi
     assert.ok(true, 'unit/post/comment/new/route-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/post/model-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/post/model-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForModel)('post', 'Unit | Model | post', {
     // Specify the other units that are required for this test.
@@ -1199,7 +1199,7 @@ define('ga-wdi-boston.ember-template/tests/unit/post/model-test', ['exports', 'e
     assert.ok(!!model);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/post/model-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/post/model-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/post/model-test.js');
@@ -1208,7 +1208,7 @@ define('ga-wdi-boston.ember-template/tests/unit/post/model-test.jshint.lint-test
     assert.ok(true, 'unit/post/model-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/post/new/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/post/new/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:post/new', 'Unit | Route | post/new', {
     // Specify the other units that are required for this test.
@@ -1220,7 +1220,7 @@ define('ga-wdi-boston.ember-template/tests/unit/post/new/route-test', ['exports'
     assert.ok(route);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/post/new/route-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/post/new/route-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/post/new/route-test.js');
@@ -1229,7 +1229,7 @@ define('ga-wdi-boston.ember-template/tests/unit/post/new/route-test.jshint.lint-
     assert.ok(true, 'unit/post/new/route-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/post/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/post/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:post', 'Unit | Route | post', {
     // Specify the other units that are required for this test.
@@ -1241,7 +1241,7 @@ define('ga-wdi-boston.ember-template/tests/unit/post/route-test', ['exports', 'e
     assert.ok(route);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/post/route-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/post/route-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/post/route-test.js');
@@ -1250,7 +1250,7 @@ define('ga-wdi-boston.ember-template/tests/unit/post/route-test.jshint.lint-test
     assert.ok(true, 'unit/post/route-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/posts/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/posts/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:posts', 'Unit | Route | posts', {
     // Specify the other units that are required for this test.
@@ -1262,7 +1262,7 @@ define('ga-wdi-boston.ember-template/tests/unit/posts/route-test', ['exports', '
     assert.ok(route);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/posts/route-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/posts/route-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/posts/route-test.js');
@@ -1271,7 +1271,7 @@ define('ga-wdi-boston.ember-template/tests/unit/posts/route-test.jshint.lint-tes
     assert.ok(true, 'unit/posts/route-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/sign-in/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/sign-in/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:sign-in', 'Unit | Route | sign in', {
     // Specify the other units that are required for this test.
@@ -1283,7 +1283,7 @@ define('ga-wdi-boston.ember-template/tests/unit/sign-in/route-test', ['exports',
     assert.ok(route);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/sign-in/route-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/sign-in/route-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/sign-in/route-test.js');
@@ -1292,7 +1292,7 @@ define('ga-wdi-boston.ember-template/tests/unit/sign-in/route-test.jshint.lint-t
     assert.ok(true, 'unit/sign-in/route-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/sign-up/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/sign-up/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:sign-up', 'Unit | Route | sign up', {
     // Specify the other units that are required for this test.
@@ -1304,7 +1304,7 @@ define('ga-wdi-boston.ember-template/tests/unit/sign-up/route-test', ['exports',
     assert.ok(route);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/sign-up/route-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/sign-up/route-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/sign-up/route-test.js');
@@ -1313,7 +1313,7 @@ define('ga-wdi-boston.ember-template/tests/unit/sign-up/route-test.jshint.lint-t
     assert.ok(true, 'unit/sign-up/route-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/user/model-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/user/model-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForModel)('user', 'Unit | Model | user', {
     // Specify the other units that are required for this test.
@@ -1327,7 +1327,7 @@ define('ga-wdi-boston.ember-template/tests/unit/user/model-test', ['exports', 'e
     assert.ok(!!model);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/user/model-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/user/model-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/user/model-test.js');
@@ -1336,7 +1336,7 @@ define('ga-wdi-boston.ember-template/tests/unit/user/model-test.jshint.lint-test
     assert.ok(true, 'unit/user/model-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/users/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('blogmon/tests/unit/users/route-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:users', 'Unit | Route | users', {
     // Specify the other units that are required for this test.
@@ -1348,7 +1348,7 @@ define('ga-wdi-boston.ember-template/tests/unit/users/route-test', ['exports', '
     assert.ok(route);
   });
 });
-define('ga-wdi-boston.ember-template/tests/unit/users/route-test.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/unit/users/route-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | unit/users/route-test.js');
@@ -1357,7 +1357,7 @@ define('ga-wdi-boston.ember-template/tests/unit/users/route-test.jshint.lint-tes
     assert.ok(true, 'unit/users/route-test.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/user/model.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/user/model.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | user/model.js');
@@ -1366,7 +1366,7 @@ define('ga-wdi-boston.ember-template/tests/user/model.jshint.lint-test', ['expor
     assert.ok(true, 'user/model.js should pass jshint.');
   });
 });
-define('ga-wdi-boston.ember-template/tests/users/route.jshint.lint-test', ['exports'], function (exports) {
+define('blogmon/tests/users/route.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | users/route.js');

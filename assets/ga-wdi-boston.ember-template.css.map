@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"sourceRoot": "/Users/Joel/wdi/projects/capstone/blogmon-ember/app/styles",
-	"file": "ga-wdi-boston.ember-template.css",
+	"file": "blogmon.css",
 	"sources": [
 		"../../sass_compiler-input_base_path-hpm1WoYV.tmp/0/app/styles/app.scss",
 		"../../sass_compiler-input_base_path-hpm1WoYV.tmp/1/_bootstrap.scss",

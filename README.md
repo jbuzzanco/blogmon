@@ -1,7 +1,16 @@
 # Blogmon
-### a blog built with Rails and ember, by Joel
+### a blog built with Rails and Ember, by Joel
 
 ![front page](http://i.imgur.com/StfqV7H.png "Front-Page")
+
+## Links to Repositories and Deployed Sites in this full stack web application
+
+- front-end repository https://github.com/jbuzzanco/blogmon
+- back-end repository https://github.com/jbuzzanco/back-end-blogmon
+- front-end github-pages https://jbuzzanco.github.io/blogmon
+- back-end heroku https://blogmon-portfolio.herokuapp.com/
+
+
 ## Technologies Used
 - HTML5
   - the structure of webpage
@@ -15,6 +24,7 @@
   - the behaviour and interaction with webpage
 - Ruby on Rails
   - Supports and constraints the front-end in order to work as expected
+
 
 ## Approach towards building this Blog application
 
@@ -37,16 +47,15 @@ is what a lot of Web Development consists of in real production environments. Em
 
 
 ## User stories
-- As a authenticated user/admin I can create blogs.
-- As a authenticated user/admin I can edit blogs.
-- As a authenticated user/admin I can delete blogs.
-- As a authenticated user/admin I can view blogs.
-- As a authenticated user/admin I can create comments.
-- As a authenticated user/admin I can view comments.
-
-- As a visitor, I can view blogs
-- As a visitor, I can comment on blogs
-- As a visitor, I can view comments on blogs
+- [x] As a authenticated user/admin I can create blogs.
+- [x] As a authenticated user/admin I can edit blogs.
+- [x] As a authenticated user/admin I can delete blogs.
+- [x] As a authenticated user/admin I can view blogs.
+- [x] As a visitor, I can view blogs
+- [ ] As a authenticated user/admin I can view comments.
+- [ ] As a visitor, I can comment on blogs (improvement)
+- [ ] As a visitor, I can view comments on blogs (improvement)
+- [ ] As a authenticated user/admin I can create comments. (improvement)
 
 ## ERD
 - [Sketch of Entity Relationship Diagram](http://imgur.com/8787D7p)
@@ -62,7 +71,7 @@ is what a lot of Web Development consists of in real production environments. Em
 ## Further Polishing, and troubles in development stage
 
 
-A big trouble was learning how the hierarchy of ember works, and to generate components and how the relate to the resources.
+A big trouble was learning how the hierarchy of ember works, and to generate components and how the relate to the resources, all within a week's time. It was stressful learning and implementing Ember in such
 Also generating an application adapter from the command line took some time to figure out what was going wrong, before realizing it got rid of importing ember!
 
 As it can be improved, I would like to have styling be better. With formatting, colors, fonts. Also, I would like to

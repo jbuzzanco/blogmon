@@ -5,7 +5,7 @@
 
 ## Links to Repositories and Deployed Sites in this full stack web application
 
-- front-end repository https://github.com/jbuzzanco/blogmon
+- front-end repository -- you're currently viewing https://github.com/jbuzzanco/blogmon
 - back-end repository https://github.com/jbuzzanco/back-end-blogmon
 - front-end github-pages https://jbuzzanco.github.io/blogmon
 - back-end heroku https://blogmon-portfolio.herokuapp.com/
@@ -52,7 +52,7 @@ is what a lot of Web Development consists of in real production environments. Em
 - [x] As a authenticated user/admin I can delete blogs.
 - [x] As a authenticated user/admin I can view blogs.
 - [x] As a visitor, I can view blogs
-- [ ] As a authenticated user/admin I can view comments.
+- [ ] As a authenticated user/admin I can view comments (improvement).
 - [ ] As a visitor, I can comment on blogs (improvement)
 - [ ] As a visitor, I can view comments on blogs (improvement)
 - [ ] As a authenticated user/admin I can create comments. (improvement)
@@ -71,8 +71,8 @@ is what a lot of Web Development consists of in real production environments. Em
 ## Further Polishing, and troubles in development stage
 
 
-A big trouble was learning how the hierarchy of ember works, and to generate components and how the relate to the resources, all within a week's time. It was stressful learning and implementing Ember in such
+A big trouble was learning how the hierarchy of ember works, and to generate components and how the relate to the resources, all within a week's time. It was intense learning and implementing Ember in such a small amount of time
 Also generating an application adapter from the command line took some time to figure out what was going wrong, before realizing it got rid of importing ember!
 
-As it can be improved, I would like to have styling be better. With formatting, colors, fonts. Also, I would like to
+As it can be improved, as with all software and websites. I would like to have styling be better. With formatting, colors, fonts. Also, I would like to
 have an excerpt section from the body of the blog post that sticks out in bigger font for creative design.
